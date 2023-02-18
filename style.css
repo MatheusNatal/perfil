@@ -63,6 +63,7 @@
 }
 
 .shape {
+    background-image: linear-gradient(to left, #ffffff0c, transparent);
     min-height: min-content;
     max-height: max-content;
     padding: 10px 10px;
@@ -98,8 +99,10 @@
 
 
 body {
-    background-image: linear-gradient(to left,  #0D0D0D, #0d0d0dfa);
+    background-image: linear-gradient(to left,  #062249, #0d0d0dfa);
     margin: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
 
     
 }
@@ -107,7 +110,8 @@ footer {
     padding: 2px;
     margin: 0px;
     text-align: center;
-    background-image: linear-gradient(to right, #272727d8, transparent);
+    height: 30px;
+    background-color: #272727d8;
 }
 footer a {
     text-decoration: none;
