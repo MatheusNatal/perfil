@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-#pictures {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    order: initial;
-}
-
 .thumb-img {
     margin-right: 7px;
     display: inline-block;
@@ -68,7 +61,7 @@
     max-height: max-content;
     padding: 10px 10px;
     margin: auto;
-    min-width: 260px;
+    min-width: min-content;
     max-width: 1050px;
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.089);
     border-top-right-radius: 15px;
@@ -173,4 +166,5 @@ p {
 }
 a {
     text-align: center;
+    margin: auto;
 }
